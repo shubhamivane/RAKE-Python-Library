@@ -9,5 +9,5 @@ process (steps described below used in this project).
 * Removing words based upon their POS Tags
 * Lemmatization
 * SW Filteration
-* Conversion into lower case
+* Conversion into lower case.
 Now, the words remain are called Candidate Keywords because some of them will be extracted as keyword by the algorithm. 
