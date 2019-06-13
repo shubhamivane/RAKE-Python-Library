@@ -17,7 +17,3 @@ def rake(filePath):
 	candidateKeywordList = preObj.preprocess(rawText)
 	indexKeywordList = postprocessing.postprocess(candidateKeywordList)
 	return indexKeywordList
-
-if __name__ == "__main__":
-#	rake(filePath)
-	rake("AP830325-0143")
