@@ -1,5 +1,5 @@
 # RAKE Python Library
-RAKE(Rapid Automatic Keyword Extraction) is a graph based keyword extraction algorithm. The graph formed is a weighted undirected graph in which vertex represents words and edges represents relation. The edge between two words define they both are part of the same candidate keyword and the count how many time they appear in the same candidate keyword is the weight of that edge. The score is calculated for every vertex using its degree and weight of the connecting edges.
+RAKE(Rapid Automatic Keyword Extraction) is a graph based keyword extraction algorithm. The graph formed is a weighted undirected graph in which vertex represents words and edges represents relation. The edge between two words define they both are part of the same candidate keyword and the count how many time they appear in the same candidate keyword is the weight of that edge. The score is calculated for every vertex using its degree and weight of the connecting edges. Based on the calculated score index keywords are selected.
 
 ## Preprocessing
 The text data which is given input directly or in the form of file is raw data which can not be direclty given to the algorithm so preprocessing is performed in this raw data to make feedable for algorithm. Preprocessing is multi step 
